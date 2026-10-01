@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pay ₹3 - Anjaly Sajeev</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f5f7fb;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .card {
+            background: white;
+            padding: 35px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+            max-width: 400px;
+            width: 85%;
+        }
+
+        h1 {
+            margin-bottom: 10px;
+        }
+
+        .amount {
+            font-size: 32px;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+
+        .pay-button {
+            display: inline-block;
+            padding: 15px 30px;
+            background: #4f46e5;
+            color: white;
+            text-decoration: none;
+            border-radius: 12px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .upi {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #666;
+            word-break: break-all;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="card">
+
+    <h1>ANJALY SAJEEV</h1>
+
+    <p>UPI Payment</p>
+
+    <div class="amount">₹3</div>
+
+    <a class="pay-button"
+       href="upi://pay?pa=anjalysajeev9556-2@okaxis&am=3&cu=INR">
+        💳 Pay ₹3 via UPI
+    </a>
+
+    <div class="upi">
+        UPI ID:<br>
+        <strong>anjalysajeev9556-2@okaxis</strong>
+    </div>
+
+</div>
+
+</body>
+</html>
