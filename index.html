@@ -66,6 +66,7 @@
             margin-top: 20px;
             font-size: 13px;
             color: #666;
+            line-height: 1.5;
         }
     </style>
 </head>
@@ -90,13 +91,14 @@
 
         <a
             class="pay-button"
-            href="gpay://upi/pay?pa=bindu062847%40okaxis&pn=BINDU&cu=INR"
+            href="intent://pay?pa=bindu062847%40okaxis&pn=BINDU&tr=TOMS-TEST-001&tn=College%20Contribution&cu=INR#Intent;scheme=upi;package=com.google.android.apps.nbu.paisa.user;end"
         >
             Pay ₹3 via UPI
         </a>
 
         <div class="note">
-            Tap the button to open Google Pay and enter ₹3.
+            Tap the button to open Google Pay.<br>
+            Enter ₹3 manually and complete the payment.
         </div>
 
     </div>
